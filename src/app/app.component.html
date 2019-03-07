@@ -1,0 +1,14 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<h1>{{ title }}</h1>
+<hr />
+<button (click)="incrementValue()" id="incButton">Increment</button>
+<br />
+<p id="countText">Total clicks: {{ count }}</p>
+<hr />
+<input
+  [(ngModel)]="user"
+  type="text"
+  placeholder="entry your name"
+  id="nameInput"
+/>
+<p id="greeting">Hello, {{ user }}</p>
